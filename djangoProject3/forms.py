@@ -1,8 +1,9 @@
 from django import forms
-
-
-
-
+class Userreg(forms.Form) :
+    First name = forms.CharField(max_length=2000)
+    Second name = forms.CharField(max_length=2000)
+    Email address = forms.CharField(max_length=2000)
+    Password = forms.CharField()
 
 
 
